@@ -12,7 +12,7 @@ It shows:
 
 ##  Project Structure  
 ```
-GCGenerationsDemo/
+GarbageCollector/
 │
 ├── Program.cs → Entry point
 ├── Services/
@@ -22,7 +22,7 @@ GCGenerationsDemo/
 │ └── GCDemoRunner.cs → Runs all demos together
 ├── Utils/
 │ └── MemoryPrinter.cs → Helper for printing GC info
-└── GCGenerationsDemo.csproj → Project file
+└── GarbageCollector.Endpoint.csproj → Project file
 ```
 
 ---
