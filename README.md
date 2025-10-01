@@ -69,11 +69,13 @@ cd GCGenerationsDemo
 dotnet run
 
 === GC Generations Demo ===
-.NET Version: 8.0.0
+.NET Version: 9.0.9
 
 -- Generation 0 Demo --
 Object 1 is in generation: 0
 Object 2 is in generation: 0
+Object 1 is in generation: 1
+Object 2 is in generation: 1
 GC Collection Counts:
 Generation 0: 1 collections
 Generation 1: 0 collections
@@ -81,6 +83,7 @@ Generation 2: 0 collections
 
 -- Generation 1 Demo --
 Object 1 is in generation: 0
+Object 1 is in generation: 1
 GC Collection Counts:
 Generation 0: 2 collections
 Generation 1: 1 collections
@@ -89,10 +92,13 @@ Generation 2: 0 collections
 -- Generation 2 Demo --
 Object 1 is in generation: 0
 Object 2 is in generation: 0
+Object 1 is in generation: 1
+Object 2 is in generation: 1
 GC Collection Counts:
 Generation 0: 3 collections
-Generation 1: 1 collections
+Generation 1: 2 collections
 Generation 2: 1 collections
+
 
 === Demo Finished ===
 
