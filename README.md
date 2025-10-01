@@ -11,7 +11,7 @@ It shows:
 ---
 
 ##  Project Structure  
-
+```
 GCGenerationsDemo/
 │
 ├── Program.cs → Entry point
@@ -23,7 +23,7 @@ GCGenerationsDemo/
 ├── Utils/
 │ └── MemoryPrinter.cs → Helper for printing GC info
 └── GCGenerationsDemo.csproj → Project file
-
+```
 
 ---
 
@@ -41,12 +41,13 @@ This demo forces collection on each generation separately and prints results:
 ---
 
 ##  GC Generations Diagram  
+```
 +-----------------+ +-----------------+ +-----------------+
 | Generation 0 | ---> | Generation 1 | ---> | Generation 2 |
 | Short-lived | | Survived 1 GC | | Long-lived |
 | objects | | (promoted) | | objects |
 +-----------------+ +-----------------+ +-----------------+
-
+```
 
 - Objects start in **Gen 0**.  
 - If they survive a collection, they move to **Gen 1**.  
@@ -55,7 +56,7 @@ This demo forces collection on each generation separately and prints results:
 
 ---
 
-## ▶️ Run the Project  
+##  Run the Project  
 
 Make sure you have **.NET 8 SDK** (or newer) installed.  
 
